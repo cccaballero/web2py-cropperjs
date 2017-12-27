@@ -1,13 +1,11 @@
 # web2py-cropperjs
 <a href="https://fengyuanchen.github.io/cropperjs/" target="_blank">Cropper.js</a> integration in the web2py framework
 
-Installation
-============
+## Installation
 
 - Download the last plugin installer (.w2p file) and install it via the web2py interface.
 
-Usage
-=====
+## Usage
 
 ```python
 from plugin_cropperjs import cropper # Import the cropper module
@@ -29,8 +27,7 @@ On new forms generated there will be available the cropper.js widget including t
 - image_cropper_detail_scaleX
 - image_cropper_detail_scaleY
 
-Cropping images server side using PIL/Pillow
-============================================
+## Cropping images server side using PIL/Pillow
 
 web2py-cropperjs includes utilities for cropping the uploaded images server-side using PIL/Pillow, in the required controller you can use:
 
@@ -56,8 +53,7 @@ def grid():
 
 ```
 
-Passing options to Cropper.js
-=============================
+## Passing options to Cropper.js
 
 Options can be passed to Cropper.js in the next way:
 
