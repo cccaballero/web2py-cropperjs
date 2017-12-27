@@ -1,5 +1,5 @@
 # web2py-cropperjs
-<a href="https://fengyuanchen.github.io/cropperjs/" target="_blank">Cropper.js</a> integration in the web2py framework
+[Cropper.js](https://fengyuanchen.github.io/cropperjs/) integration in the web2py framework
 
 ## Installation
 
